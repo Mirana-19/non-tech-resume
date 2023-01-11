@@ -1,0 +1,155 @@
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* CONTAINERS */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1030px;
+  height: 1500px;
+  padding: 0 15px;
+}
+
+.summary-container {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+
+  background-color: #10526f;
+  color: #fff;
+}
+
+.main-content {
+  padding: 20px 0;
+  display: flex;
+}
+
+.main-wrapper {
+  padding-right: 20px;
+}
+
+.summary-text {
+  max-width: 800px;
+}
+
+.contacts {
+  padding: 20px;
+  background-color: #043347;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+
+.socials {
+  margin-left: auto;
+}
+
+.socials-item {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  color: #098bc3;
+  text-decoration: underline;
+}
+
+.sidebar > .section-title:not(:first-child) {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.sidebar > .section-title:first-child {
+  margin-bottom: 20px;
+}
+
+.main-wrapper > .section-title:not(:first-of-type) {
+  margin-top: 30px;
+}
+
+.school-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.job-list-item {
+  margin-top: 20px;
+}
+.job-title {
+  margin-bottom: 10px;
+}
+
+.hard-skills-list,
+.soft-skills-list,
+.languages-list {
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 10px;
+
+  width: 400px;
+}
+
+.hard-skills-list-item {
+  padding: 5px;
+
+  text-align: center;
+  min-width: 125px;
+  background-color: #0b95d0;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.soft-skills-list-item {
+  padding: 5px;
+
+  text-align: center;
+  min-width: 125px;
+  border-radius: 3px;
+
+  border: 1px solid black;
+}
+
+.languages-list-item {
+}
+
+.date,
+.language-level {
+  font-style: italic;
+  font-size: 16px;
+  color: #098bc3;
+}
+
+.clause {
+  margin-top: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.job-list-item > p {
+  margin-top: 5px;
+}
